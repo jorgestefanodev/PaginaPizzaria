@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Infinity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <div class="logomarca">
+            <a href="#home"><img src="imagens\logo.png" alt="Logomarca pizzaria"></a>
+        </div>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#cardapio">Cardapio</a></li>
+                <li><a href="pedido.html">Pedido</a></li>
+                <li><a href="./index.html#faleconosco">Fale conosco</a></li>                
+            </ul>            
+        </nav>
+    </header>
+
+        <form action="">
+            <div>
+                <div id="titulo_formulario">
+                    <h1>FAÇA SEU PEDIDO</h1>
+                </div>
+            </div>
+            <main>
+                <section>
+                    <div class="container_formulario">
+                        <div class="dados_pessoais">    
+                            <form action="">
+                                <div id="nome">
+                                    <label for="name">Nome</label>
+                                    <input id="name" name="name" type="text" placeholder="Digite seu nome...">
+                                </div>
+                                <div id="telefone">
+                                    <label for="telefone">Telefone</label>
+                                    <input id="telefone" name="telefone" type="tel" placeholder="Digite seu telefone...">
+                                </div>
+                                <div id="endereco">
+                                    <label for="endereco">Endereço</label>
+                                    <input id="endereco" name="endereco" type="text" placeholder="Digite seu endereço...">
+                                </div>
+                            </form>
+                        </div>
+                            <div class="sabores_tamanhos">
+                                <label for=""><b>Escolha o sabor:</b></label>
+                                <select name="" id="sabores">    
+                                    <option value="">Selecione</option>
+                                    <option value="calabresa">Calabresa</option>
+                                    <option value="marguerita">Marguerita</option>
+                                    <option value="portuguesa">Portuguesa</option>
+                                    <option value="vegetariana">Vegetariana</option>
+                                    <option value="frango_catupiry">Frango Catupiry</option>
+                                    <option value="pepperoni">Pepperoni</option>
+                                </select>
+
+                                <div class="tamanhos">
+                                    <label><b>Escolha o tamanho:</b></label>
+                                    <label for="">P</label>
+                                    <input type="radio" name="tamanho_pizza" value="p">
+                                    <label for="">M</label>
+                                    <input type="radio" name="tamanho_pizza" value="m">
+                                    <label for="">G</label>
+                                    <input type="radio" name="tamanho_pizza" value="g">
+                                </div>
+
+                                <div class="condimentos">
+                                    <h4>Condimentos?</h4>
+                                    <label for="">Catchup
+                                        <input type="checkbox" id="catchup" name="condimento" value="catchup">
+                                    </label>
+                                    <label for="">Maionese
+                                        <input type="checkbox" id="maionese" name="condimento" value="maionese">
+                                    </label>
+                                    <label for="">Mostarda
+                                        <input type="checkbox" id="mostarda" name="condimento" value="mostarda">
+                                    </label>
+                                </div>
+                                <div>
+                                    <button>Fazer pedido</button>
+                                </div>
+                            </div>                            
+                    </div>    
+                </section>
+            </main>

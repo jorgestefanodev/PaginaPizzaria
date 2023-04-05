@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Infinity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <div class="logomarca">
+            <a href="#home"><img src="imagens\logo.png" alt="Logomarca pizzaria"></a>
+        </div>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardapio">Cardapio</a></li>
+                <li><a href="pedido.html" target="_blank">Pedido</a></li>
+                <li><a href="#faleconosco">Fale conosco</a></li>                
+            </ul>            
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="imagens\banner.png" alt="Banner" width="100%" height="600px">
+        </section>
+
+        <section>
+            <div id="sobre" >
+                <h2>SOBRE NÓS</h2>
+                <p>A Inifinity Pizzaria foi criada em 1983 com o objetivo de trazer aos clientes a melhor pizza, com ingredientes selecionados e muito cuidado em seu preparo. Existem alguns diferenciais que fazem com que nossa Pizza tenha um brilhantismo peculiar: a Massa com receita secreta crocante e saborosa (vale à pena experimentar).</p>
+            </div>
+        </section>
+        
+        <h2 id="titulo_cardapio">Cardápio</h2>
+        <!-- Cards com as imagens das pizzas disponiveis -->
+        <section class="cardapio" id="cardapio">
+            <div id="card1">
+                <div><img src="imagens\calabresa.png" alt="pizza calabresa"></div>
+                <div id="card1_texto">
+                    <h2>Calabresa</h2>
+                </div>
+            </div>
+
+            <div id="card2">
+                <div><img src="imagens\marguerita.jpg" alt="pizza calabresa"></div>
+                <div id="card2_texto">
+                    <h2>Marguerita</h2>
+                </div>
+                <div #rodapé_card2></div>
+            </div>
+
+            <div id="card3">
+                <div><img src="imagens\pizza-portuguesa.jpg" alt="pizza calabresa"></div>
+                <div id="card3_texto">
+                    <h2>Portuguesa</h2>
+                </div>
+            </div>
+
+            <div id="card4">
+                <div><img src="imagens\veg.jpg" alt="pizza calabresa"></div>
+                <div id="card4_texto">
+                    <h2>Vegetariana</h2>
+                </div>
+            </div>
+
+            <div id="card5">
+                <div><img src="imagens\frango.jpg" alt="pizza calabresa"></div>
+                <div id="card5_texto">
+                    <h2>Frango Catupiry</h2>
+                </div>
+            </div>
+
+            <div id="card6">
+                <div><img src="imagens\peperoni.jpg" alt="pizza calabresa"></div>
+                <div id="card6_texto">
+                    <h2>Pepperoni</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Tabela com imagens, sabores, descrições e preços das pizzas -->
+            <div class="container_tabela">
+                <table border="1" id="tabela">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">*</th>
+                            <th rowspan="2">Sabor</th>
+                            <th rowspan="2">Descrição</th>
+                            <th colspan="3">valor</th>
+                        </tr>
+                        <tr>
+                            <td>P</td>
+                            <td>M</td>
+                            <td>G</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://big10.com.br/wp-content/uploads/2021/05/Calabresa.png" width="60px" height="60px" alt=""></td>
+                            <td>Calabresa</td>
+                            <td>Azeitona, calabresa fatiada, cebola, mussarela e oregano</td>
+                            <td>R$ 35,00</td>
+                            <td>R$ 55,00</td>
+                            <td>R$ 75,00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://img.freepik.com/fotos-gratis/o-pepperoni-em-fatias-finas-e-uma-cobertura-de-pizza-popular-em-pizzarias-de-estilo-americano-isolado-no-fundo-branco-natureza-morta_639032-229.jpg?w=2000" width="60px" height="60px" alt=""></td>
+                            <td>Pepperoni</td>
+                            <td>Pepperoni, mussarela e oregano</td>
+                            <td>R$ 55,00</td>
+                            <td>R$ 65,00</td>
+                            <td>R$ 85,00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://www.cosmopolitapizza.com.br/wp-content/uploads/2021/03/PORTUGUESA.png" width="60px" height="60px" alt=""></td>
+                            <td>Portuguesa</td>
+                            <td>Mussarela, presunto, ovo, ervilha, cebola e oregano</td>
+                            <td>R$ 35,00</td>
+                            <td>R$ 45,00</td>
+                            <td>R$ 55,00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://s.cornershopapp.com/product-images/2050484.png?versionId=Rft8OlAbxbJGQfK5Z5YMSnWQ2aNYnFrj" width="60px" height="60px" alt=""></td>
+                            <td>Frango Catupiry</td>
+                            <td>Mussarela, presunto, ovo, ervilha, cebola e oregano</td>
+                            <td>R$ 35,00</td>
+                            <td>R$ 45,00</td>
+                            <td>R$ 55,00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://e7.pngegg.com/pngimages/641/259/png-clipart-pizza-margherita-italian-cuisine-fast-food-pizza-food-recipe.png" width="60px" height="60px" alt=""></td>
+                            <td>Marguerita</td>
+                            <td>Mussarela, tomate e manjericão</td>
+                            <td>R$ 35,00</td>
+                            <td>R$ 45,00</td>
+                            <td>R$ 55,00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://marketup-cdn.s3-us-west-2.amazonaws.com/files/947788/products/e501b24e-621b-4277-bfba-9836d6432cb3.png" width="60px" height="60px" alt=""></td>
+                            <td>Vegetariana</td>
+                            <td>Mussarela de búfala, tomate seco e rúcula</td>
+                            <td>R$ 55,00</td>
+                            <td>R$ 75,00</td>
+                            <td>R$ 95,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </body>
+            </html>
+            </div>
+        </section>
+        <section>
+            <div class="faleconosco"  id="faleconosco">
+                <h2>Fale Conosco</h2>
+            </div>
+            <div class="contato">
+                <div #endereco>
+                    <h3>Endereço</h3>
+                    <p>Rua Av.ACM, nº 1784</p>
+                    <p>Pituba</p>
+                    <p>Salvador-BA</p>
+                </div>
+                <div #horarios>
+                    <h3>Horários</h3>
+                    <p>Terça - quinta: 18h às 23h</p> 
+                    <p>Sexta e sábado: 18h às 23h30</p> 
+                    <p>Domingo: 18h às 23h</p> 
+                </div>
+                <div #telefones>
+                    <h3>Telefones</h3>
+                    <p>Tel.:(71)3333-3333</p>
+                    <p>Tel.:(71)9999-9999</p>
+                    <p>Tel.:(71)8888-8888</p>
+                </div>
+            </div>   
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>©Copyright Jorge Stefano - 2023</p>
+    </footer>
+</body>
+</html>
