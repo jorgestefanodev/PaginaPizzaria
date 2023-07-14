@@ -280,6 +280,7 @@
 }
 
 
+
 /* ---------Tabela---------- */
 .container_tabela {
     display: flex;
@@ -488,3 +489,4 @@ button:hover {
     color: #D91604;
     border: 1px solid #D91604;
 }
+
