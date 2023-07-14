@@ -1,2 +1,2 @@
 # PaginaPizzaria
-Pequeno projeto para treinar conhecimento em HTML e CSS 
+Pequeno projeto para treinar conhecimento em HTML, CSS e Javascript
