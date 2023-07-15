@@ -43,20 +43,6 @@
 }
 
 
-#rodape {
-    background-color: #8C0303;
-    height: 70px;
-}
-
-#rodape p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #F2E3B3;
-    padding-top: 20px;
-}
-
-
 /* ---------Página de Pedidos--------- */
 
 
@@ -200,3 +186,16 @@ button:hover {
     border: 1px solid #D91604;
 }
 
+
+#rodape {
+    background-color: #8C0303;
+    height: 70px;
+}
+
+#rodape p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #F2E3B3;
+    padding-top: 20px;
+}
