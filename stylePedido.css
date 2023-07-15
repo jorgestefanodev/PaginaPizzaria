@@ -1,0 +1,142 @@
+
+
+#titulo_formulario {
+    text-align: center;
+    padding-top: 50px;
+    height: 150px;
+    background-color:#8c0303a4;
+    color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+
+.container_formulario {
+    display: flex;
+    width: 1000px;
+    height: 430px;
+    border: 1px solid black;  
+    margin-top: 50px; 
+    margin-left: 350px;
+    margin-bottom: 100px;
+    
+}
+
+
+.dados_pessoais {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 50px;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#nome {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+#nome input{
+    border: none;
+    border-bottom: 1px solid #888888;
+    width: 300px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#telefone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+#telefone input {
+    border: none;
+    border-bottom: 1px solid #888888;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+#endereco {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+#endereco input {
+    border: none;
+    border-bottom: 1px solid #888888;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.sabores_tamanhos {
+    width: 500px;
+    margin-top: 68px;
+    margin-left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+.sabores_tamanhos select {
+    width: 170px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+
+}
+
+.tamanhos {   
+    width: 500px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+
+.condimentos {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.condimentos h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    margin-top: 70px;
+    margin-left: -170px;
+    width: 300px;
+    height: 40px;
+    background-color:#D91604;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .4s;
+
+}
+
+button:hover {
+    background: transparent;
+    color: #D91604;
+    border: 1px solid #D91604;
+}
+
